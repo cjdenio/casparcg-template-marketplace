@@ -1,2 +1,3 @@
 collections:
-  - caspar_templates
+  caspar_templates:
+    permalink: /templates/:name
