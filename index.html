@@ -1,5 +1,4 @@
----
-permalink: /cool/
----
-
 <h1>Hi!</h1>
+{% for template in site.caspar_templates %}
+  <h2>{{ template.template_name }} - {{ template.user }}</h2>
+{% endfor %}
