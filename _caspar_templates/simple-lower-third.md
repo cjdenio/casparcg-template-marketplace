@@ -1,4 +1,5 @@
 ---
+layout: template
 template_name: Simple Lower Third
 user: Caleb Denio
 ---
