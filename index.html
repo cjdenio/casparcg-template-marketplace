@@ -4,14 +4,14 @@ name: main
 ---
 
 <head>
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/templates.css" />
+    <link rel="stylesheet" href="/casparcg-template-marketplace/css/index.css" />
+    <link rel="stylesheet" href="/casparcg-template-marketplace/css/templates.css" />
 
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
 
 <div id="header">
-    <a href="/casparcg-template-marketplace"><img id="logo" src="img/logo-light.png" alt="CasparCG Template Marketplace" /></a>
+    <a href="/casparcg-template-marketplace"><img id="logo" src="/casparcg-template-marketplace/img/logo-light.png" alt="CasparCG Template Marketplace" /></a>
 </div>
 
 <div id="content-1">
@@ -23,7 +23,7 @@ name: main
 <div id="templates-container">
     {% for template in site.caspar_templates %}
     <a href="templates/{{ template.template_name }}">
-        <div class="template" style="background-image: url('img/example.png')">
+        <div class="template" style="background-image: url('/casparcg-template-marketplace/img/example.png')">
             <div class="template-content">
                 <span class="template-name">{{ template.template_name }}</span><br />
                 <span class="user-name">{{ template.user }}</span>
@@ -34,7 +34,7 @@ name: main
 </div>
 
 <div id="footer">
-    <img src="img/logo.png" width="300px" /><br /> This library was created by <a href="https://github.com/cjdenio" target="_blank">Caleb Denio</a>. It's not endorsed by CasparCG or SVT in any way.<br /> Hosted on <a href="https://github.com/cjdenio/casparcg-template-marketplace"
+    <img src="/casparcg-template-marketplace/img/logo.png" width="300px" /><br /> This library was created by <a href="https://github.com/cjdenio" target="_blank">Caleb Denio</a>. It's not endorsed by CasparCG or SVT in any way.<br /> Hosted on <a href="https://github.com/cjdenio/casparcg-template-marketplace"
         target="_blank">GitHub Pages</a>.
 </div>
 
