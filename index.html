@@ -22,7 +22,7 @@ name: main
 
 <div id="templates-container">
     {% for template in site.caspar_templates %}
-    <a href="templates/{{ template.template_name }}">
+    <a href="{{ template.url }}">
         <div class="template" style="background-image: url('/casparcg-template-marketplace/img/example.png')">
             <div class="template-content">
                 <span class="template-name">{{ template.template_name }}</span><br />
