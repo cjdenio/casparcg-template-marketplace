@@ -7,12 +7,13 @@ document.body.onscroll = function() {
         header.style.backgroundColor = "white";
         header.style.boxShadow = "0px 0px 7px black";
 
-        logo.src = 'img/logo.png';
+        logo.src = '/img/logo.png';
 
     } else {
         header.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
         header.style.boxShadow = "none";
 
-        logo.src = 'img/logo-light.png';
+        logo.src = '/img/logo-light.png';
     }
+    console.log(document.body.scrollTop);
 }

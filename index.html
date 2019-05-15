@@ -11,7 +11,7 @@ name: main
 </head>
 
 <div id="header">
-    <a href="/"><img id="logo" src="img/logo-light.png" alt="CasparCG Template Marketplace" /></a>
+    <a href="/casparcg-template-marketplace"><img id="logo" src="img/logo-light.png" alt="CasparCG Template Marketplace" /></a>
 </div>
 
 <div id="content-1">
@@ -22,12 +22,14 @@ name: main
 
 <div id="templates-container">
     {% for template in site.caspar_templates %}
-    <div class="template" style="background-image: url('img/example.png')">
-        <div class="template-content">
-            <span class="template-name">{{ template.template_name }}</span><br />
-            <span class="user-name">{{ template.user }}</span>
+    <a href="templates/{{ template.template_name }}">
+        <div class="template" style="background-image: url('img/example.png')">
+            <div class="template-content">
+                <span class="template-name">{{ template.template_name }}</span><br />
+                <span class="user-name">{{ template.user }}</span>
+            </div>
         </div>
-    </div>
+    </a>
     {% endfor %}
 </div>
 
