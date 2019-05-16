@@ -1,3 +1,5 @@
+baseurl: /casparcg-template-marketplace
+
 collections:
   caspar_templates:
     output: true

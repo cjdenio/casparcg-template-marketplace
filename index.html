@@ -3,17 +3,7 @@ permalink: /
 name: main
 ---
 
-<head>
-    <link rel="stylesheet" href="/casparcg-template-marketplace/css/index.css" />
-    <link rel="stylesheet" href="/casparcg-template-marketplace/css/templates.css" />
-
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-</head>
-
-<div id="header">
-    <a href="/casparcg-template-marketplace"><img id="logo" src="/casparcg-template-marketplace/img/logo-light.png" alt="CasparCG Template Marketplace" /></a>
-</div>
-
+{% include header.html %}
 <div id="content-1">
     <div class="actual-content">
         <span class="highlight">Free</span> CasparCG templates for your next live production.
@@ -22,25 +12,19 @@ name: main
 
 <div id="templates-container">
     {% for template in site.caspar_templates %}
-    <a href="/casparcg-template-marketplace{{ template.url }}">
-        <div class="template" style="background-image: url('/casparcg-template-marketplace/img/example.png')">
+    <a href="/casparcg-template-marketplace{{ template.url }}" style="text-decoration: none;">
+        {% if template.image %}
+        <div class="template" style="background-image: url('{{ site.baseurl }}/thumbnails/{{ template.image }}')">
+        {% else %}
+        <div class="template" style="background-image: url('{{ site.baseurl }}/thumbnails/{{ template.short_name }}.png')">
+        {% endif %}
             <div class="template-content">
                 <span class="template-name">{{ template.template_name }}</span><br />
-                <span class="user-name">{{ template.user }}</span>
+                <span class="user-name">{{ template.creator }}</span>
             </div>
         </div>
     </a>
     {% endfor %}
 </div>
 
-<div id="footer">
-    <img src="/casparcg-template-marketplace/img/logo.png" width="300px" /><br /> This library was created by <a href="https://github.com/cjdenio" target="_blank">Caleb Denio</a>. It's not endorsed by CasparCG or SVT in any way.<br /> Hosted on <a href="https://github.com/cjdenio/casparcg-template-marketplace"
-        target="_blank">GitHub Pages</a>.
-</div>
-
-<!-- <h1>Hi!</h1>
-{% for template in site.caspar_templates %}
-  <h2>{{ template.template_name }} - {{ template.user }}</h2>
-{% endfor %} -->
-
-<script src="index.js"></script>
+{% include footer.html %}

@@ -2,8 +2,8 @@ var header = document.getElementById("header");
 var logo = document.getElementById("logo");
 var darkLogo = document.getElementById("dark-logo");
 
-document.body.onscroll = function() {
-    if (document.body.scrollTop >= 150) {
+window.onscroll = function() {
+    if (window.scrollY >= 150) {
         header.style.backgroundColor = "white";
         header.style.boxShadow = "0px 0px 7px black";
 
@@ -15,5 +15,5 @@ document.body.onscroll = function() {
 
         logo.src = '/casparcg-template-marketplace/img/logo-light.png';
     }
-    console.log(document.body.scrollTop);
+    console.log(window.scrollY);
 }
