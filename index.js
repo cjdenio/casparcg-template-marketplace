@@ -5,7 +5,7 @@ var darkLogo = document.getElementById("dark-logo");
 window.onscroll = function() {
     if (window.scrollY >= 150) {
         header.style.backgroundColor = "white";
-        header.style.boxShadow = "0px 0px 7px black";
+        header.style.boxShadow = "0px 0px 20px rgba(0, 0, 0, 0.3)";
 
         logo.src = '/casparcg-template-marketplace/img/logo.png';
 

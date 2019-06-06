@@ -1,4 +1,5 @@
 {% include header.html %}
+
 <style>
     *{
         color: black;
@@ -9,11 +10,36 @@
     #content-1{
         height: 240px !important;
     }
+    .sidebar{
+        float: left;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    }
+    .template-page-body{
+        box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.3);
+        width: 75%;
+        height: 1000px;
+        margin: 10px auto;
+        margin-bottom: 50px;
+        padding: 20px;
+
+        font-size: 20px;
+    }
 </style>
 
 <div id="content-1"></div>
 
-<h1>{{ page.template_name }}</h1>
-{{ content }}
+<!-- <div class="sidebar">
+    <h1>Some content</h1><br /><br />
+    <h2>Some more</h2>
+</div> -->
+<h1 style="margin-bottom:0">{{ page.template_name }}</h1>
+<h2 style="margin-top:0">by <span class="highlight">{{ page.creator }}</span></h2>
+
+<img src="{{ site.baseurl }}/img/download.png" width="200px" />
+
+<div class="template-page-body">
+    <img src="{{ site.baseurl }}/thumbnails/{{ page.short_name }}.png" width="300px" />
+    {{ content }}
+</div>
 
 {% include footer.html %}

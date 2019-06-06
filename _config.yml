@@ -4,3 +4,11 @@ collections:
   caspar_templates:
     output: true
     permalink: /templates/:name
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "caspar_templates"
+    values:
+      layout: "template"
