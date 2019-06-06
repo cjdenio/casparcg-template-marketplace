@@ -1,11 +1,10 @@
 ---
-template_name: Simple Lower Third
+template_name: Example Lower Third
 creator: Caleb Denio
-short_name: simple-lower-third
+short_name: example-lower-third
 tags:
     - lower-third
     - flash
-    - cookies
 ---
 
-This is a *bare-bones* CasparCG lower third.
+This is a CasparCG lower third that doesn't actually exist.

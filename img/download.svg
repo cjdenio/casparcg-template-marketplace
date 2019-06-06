@@ -17,8 +17,8 @@
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="download.svg"
    inkscape:export-filename="D:\cjden\Documents\casparcg-template-marketplace\img\download.png"
-   inkscape:export-xdpi="16.038187"
-   inkscape:export-ydpi="16.038187">
+   inkscape:export-xdpi="80.190933"
+   inkscape:export-ydpi="80.190933">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -29,10 +29,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="1638.5714"
+     inkscape:cx="709.99999"
      inkscape:cy="-25.714284"
      inkscape:document-units="mm"
-     inkscape:current-layer="g835"
+     inkscape:current-layer="layer1"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -51,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -61,7 +61,7 @@
      id="layer1"
      transform="translate(450.54761,-47.535713)">
     <rect
-       style="opacity:1;fill:#323232;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#646464;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
        id="rect830"
        width="316.74405"
        height="94.494049"

@@ -1,5 +1,10 @@
 var search = document.getElementById("search");
 
+// Random placeholder
+var placeholders = ["html", "Caleb Denio", "lower-third", "countdown"];
+var placeholder = placeholders[Math.floor(Math.random()*placeholders.length)];
+search.placeholder = "Search e.g. " + placeholder;
+
 search.oninput = function (){
     //alert(search.value);
     var templates = document.querySelectorAll(".template");

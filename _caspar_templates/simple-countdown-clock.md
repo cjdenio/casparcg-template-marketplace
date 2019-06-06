@@ -1,12 +1,10 @@
 ---
-template_name: Simple Countdown
-creator: Bob the Builder
-short_name: simple-countdown-clock
+template_name: Example Countdown
+creator: Caleb Denio
+short_name: example-countdown-clock
 tags:
     - countdown
     - html
 ---
-# Simple Countdown
-## Docs
-### Hi!
-**Yay!** Countdowns!
+
+This is a CasparCG Countdown that doesn't actually exist.
