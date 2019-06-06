@@ -17,12 +17,38 @@
     .template-page-body{
         box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.3);
         width: 75%;
-        height: 1000px;
+        min-height: 1000px;
         margin: 10px auto;
         margin-bottom: 50px;
         padding: 20px;
 
         font-size: 20px;
+    }
+    #download:hover{
+        filter: brightness(150%);
+    }
+    .badge{
+        /*border: 2px solid rgb(200, 200, 200);*/
+        color: white;
+        background-color: rgb(200, 200, 200);
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 7px;
+
+        transition: all 200ms;
+
+        cursor: default;
+
+        margin: 0 5px;
+    }
+    .badge:hover{
+        background-color: rgb(100, 100, 100);
+    }
+    #image{
+        transition: all 300ms;
+    }
+    #image:hover{
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
     }
 </style>
 
@@ -33,12 +59,17 @@
     <h2>Some more</h2>
 </div> -->
 <h1 style="margin-bottom:0">{{ page.template_name }}</h1>
-<h2 style="margin-top:0">by <span class="highlight">{{ page.creator }}</span></h2>
+<h2 style="margin:0">by <span class="highlight">{{ page.creator }}</span></h2><br />
+{% for tag in page.tags %}
+<span class="badge">{{ tag }}</span>
+{% endfor %}
 
-<img src="{{ site.baseurl }}/img/download.png" width="200px" />
+<br /><br />
+
+<a href="{{ site.baseurl }}/template_files/{{ page.short_name }}.zip" download><img src="{{ site.baseurl }}/img/download.png" width="200px" id="download" /></a>
 
 <div class="template-page-body">
-    <img src="{{ site.baseurl }}/thumbnails/{{ page.short_name }}.png" width="300px" />
+    <img src="{{ site.baseurl }}/thumbnails/{{ page.short_name }}.png" width="300px" id="image" />
     {{ content }}
 </div>
 

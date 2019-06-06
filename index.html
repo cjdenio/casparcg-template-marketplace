@@ -14,9 +14,9 @@ name: main
     {% for template in site.caspar_templates %}
     <a href="/casparcg-template-marketplace{{ template.url }}" style="text-decoration: none;">
         {% if template.image %}
-        <div class="template" style="background-image: url('{{ site.baseurl }}/thumbnails/{{ template.image }}')">
+        <div class="template" style="background-image: url('{{ site.baseurl }}/thumbnails/{{ template.image }}')" data-tags="{% for tag in template.tags %}{{ tag }},{% endfor %}">
         {% else %}
-        <div class="template" style="background-image: url('{{ site.baseurl }}/thumbnails/{{ template.short_name }}.png')">
+        <div class="template" style="background-image: url('{{ site.baseurl }}/thumbnails/{{ template.short_name }}.png')" data-tags="{% for tag in template.tags %}{{ tag }},{% endfor %}">
         {% endif %}
             <div class="template-content">
                 <span class="template-name">{{ template.template_name }}</span><br />

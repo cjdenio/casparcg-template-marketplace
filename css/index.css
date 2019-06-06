@@ -79,3 +79,25 @@ a {
 a:hover {
     color: #00FF00;
 }
+
+input[type="text"]{
+    color: black;
+    font-size: 20px;
+    background-color: rgba(220, 220, 220, 0.5);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: transparent;
+}
+
+input[type="text"]:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: rgb(220, 220, 220, 0.5);
+}
+
+input[type="text"]:focus{
+    outline: none;
+    border-color: #00ff00;
+    background-color: rgba(255, 255, 255, 0.5);
+}

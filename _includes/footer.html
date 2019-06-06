@@ -7,3 +7,6 @@
 </div>
 
 <script src="{{ site.baseurl }}/index.js"></script>
+{% if page.url == '/' %}
+    <script src="{{ site.baseurl }}/search.js"></script>
+{% endif %}

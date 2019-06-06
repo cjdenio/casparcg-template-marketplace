@@ -17,4 +17,8 @@
 <div id="header">
     <a href="{{ site.baseurl }}/"><img id="logo" src="/casparcg-template-marketplace/img/logo-light.png"
             alt="CasparCG Template Marketplace" /></a>
+            {% if page.url == '/' %}
+            <br />
+            <input type="text" placeholder="Search" id="search" />
+            {% endif %}
 </div>
