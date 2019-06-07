@@ -123,4 +123,4 @@ Now, open a pull request between your fork and the base repository. Please title
 
 ## What's next?
 
-Your template should get approved within 7 days. As soon as the pull request is merged, you template will be immediately added to the [CasparCG Template Marketplace](https://cjdenio.github.io/casparcg-template-marketplace)!
+Your template should get approved within 7 days. As soon as the pull request is merged, your template will be immediately added to the [CasparCG Template Marketplace](https://cjdenio.github.io/casparcg-template-marketplace)!
