@@ -83,7 +83,11 @@
 
 <div class="template-page-body">
     <div class="inner">
+        {% if page.image %}
+        <img src="{{ site.baseurl }}/thumbnails/{{ page.image }}" width="300px" id="image" />
+        {% else %}
         <img src="{{ site.baseurl }}/thumbnails/{{ page.short_name }}.png" width="300px" id="image" />
+        {% endif %}
         {{ content }}
     </div>
 </div>
