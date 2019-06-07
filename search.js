@@ -1,7 +1,7 @@
 var search = document.getElementById("search");
 
 // Random placeholder
-var placeholders = ["html", "Caleb Denio", "lower-third", "countdown"];
+var placeholders = ["html", "Caleb Denio", "lower-third", "countdown", "flash"];
 var placeholder = placeholders[Math.floor(Math.random()*placeholders.length)];
 search.placeholder = "Search e.g. " + placeholder;
 

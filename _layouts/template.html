@@ -20,7 +20,7 @@
         min-height: 1000px;
         margin: 10px auto;
         margin-bottom: 50px;
-        padding: 20px;
+        /*padding: 20px;*/
 
         font-size: 20px;
     }
@@ -60,6 +60,9 @@
     #image:hover{
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
     }
+    .inner{
+        padding: 20px 100px;
+    }
 </style>
 
 <div id="content-1"></div>
@@ -79,8 +82,14 @@
 <a href="{{ site.baseurl }}/template_files/{{ page.short_name }}.zip" download><img src="{{ site.baseurl }}/img/download.png" width="200px" id="download" /></a>
 
 <div class="template-page-body">
-    <img src="{{ site.baseurl }}/thumbnails/{{ page.short_name }}.png" width="300px" id="image" />
-    {{ content }}
+    <div class="inner">
+        <img src="{{ site.baseurl }}/thumbnails/{{ page.short_name }}.png" width="300px" id="image" />
+        {{ content }}
+    </div>
 </div>
+
+<h1>{{ page.template_name }}</h1>
+<a href="{{ site.baseurl }}/template_files/{{ page.short_name }}.zip" download><img
+        src="{{ site.baseurl }}/img/download.png" width="200px" id="download" /></a>
 
 {% include footer.html %}

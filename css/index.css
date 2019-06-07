@@ -101,3 +101,22 @@ input[type="text"]:focus{
     border-color: #00ff00;
     background-color: rgba(255, 255, 255, 0.5);
 }
+
+code{
+    font-family: monospace;
+    color: rgb(50, 50, 50);
+    background-color: rgb(240, 240, 240);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+blockquote{
+    border-left: 7px solid rgb(210, 210, 210);
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+    text-align: left;
+}
+
+blockquote code{
+    background-color: rgb(220, 220, 220);
+}
