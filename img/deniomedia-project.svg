@@ -15,7 +15,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="project.svg">
+   sodipodi:docname="deniomedia-project.svg"
+   inkscape:export-filename="D:\cjden\Documents\casparcg-template-marketplace\img\deniomedia-project.png"
+   inkscape:export-xdpi="119.30057"
+   inkscape:export-ydpi="119.30057">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.19264696"
-     inkscape:cx="-657.6183"
+     inkscape:cx="-1501.1302"
      inkscape:cy="-216.12153"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -49,7 +52,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
