@@ -7,12 +7,12 @@ tags:
     - flash
     - simple
     - actionscript
-	- branding
+    - branding
 ---
 
 # Channel Branding Logo Animation
 
-This is a simple logo animation using only actionscript, special for the beginners. The animations are triggered by calling the functions inside the template (Out and In). __Source files are included__
+This is a simple logo animation using only actionscript, special for the beginners. The animations are triggered by calling the functions inside the template (Out and In). __Source files are included__.
 
 ## Getting started
 
