@@ -1,7 +1,7 @@
 ---
 template_name: Channel Branding Info
 creator: Tello Diego
-short_name: channelbrand-logo-anim
+short_name: channelbrand-info
 tags:
     - info
     - flash
@@ -17,7 +17,7 @@ This is a simple channel info like a "coming up next" near to the channel logo, 
 
 ## Getting started
 
-Just extract the downloaded `.zip` file and extract it, copy the .ft file into your CasparCG `template/` directory. You can then go ahead and play the template with `CG 1 ADD 1 CHANNELBRAND-LOGO-ANIM 1`.
+Just extract the downloaded `.zip` file and extract it, copy the .ft file into your CasparCG `template/` directory. You can then go ahead and play the template with `CG 1 ADD 1 CHANNELBRAND-INFO 1`.
 
 ## Parameters
 > Parameters are sent via the `CG ADD` command, and must be sent as a XML string.
@@ -33,7 +33,7 @@ Just extract the downloaded `.zip` file and extract it, copy the .ft file into y
 
 `positionY` - __String__ Set the X position value.
 
-
+## XML Sample
 > `						<templateData>
 							<componentData id='header'>
 								<data id='text' value='COMING UP NEXT' />
