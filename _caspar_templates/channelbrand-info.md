@@ -34,7 +34,7 @@ Just extract the downloaded `.zip` file and extract it, copy the .ft file into y
 `positionY` - __String__ Set the X position value.
 
 ## XML Sample
-> 						<templateData>
+`						<templateData>
 							<componentData id='header'>
 								<data id='text' value='COMING UP NEXT' />
 							</componentData>
@@ -51,4 +51,4 @@ Just extract the downloaded `.zip` file and extract it, copy the .ft file into y
 								<data id='text' value='40' />
 							</componentData>
 						</templateData>
-
+`
