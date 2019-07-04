@@ -16,7 +16,7 @@ This is a simple logo animation using only actionscript, special for the beginne
 
 ## Getting started
 
-Just extract the downloaded `.zip` file and extract it, copy the .ft file into your CasparCG `template/` directory. You can then go ahead and play the template with `CG 1 ADD 1 CHANNELBRAND-LOGO-ANIM 1`.
+Just extract the downloaded `.zip` file and copy the .ft file into your CasparCG `template/` directory. You can then go ahead and play the template with `CG 1 ADD 1 CHANNELBRAND-LOGO-ANIM 1`.
 
 ## Parameters
 
